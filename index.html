@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Outfit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Heading -->
+        <h1>My To-Do List</h1>
+        <!-- Div to enter the new Task  -->
+            <div class="form">
+                <input type="text" name="Task" id="newTask" placeholder="Enter your Task">
+                <button id='addTask'>
+                    Add Task
+                </button>
+            </div>
+        <div  id='Tasks' class="tasks">
+            <!-- All Tasks would be formed using the Dom -->
+
+            <!-- Below is the structure of the Tasks  -->
+            
+            <!-- <div class="task">
+                <div class="content">
+                    <ion-icon id='checkbox' name="ellipse-outline"></ion-icon>
+                    <p>Complete Front-End Projects</p>
+                </div>
+                <ion-icon id='delete' name="close-circle"></ion-icon>
+            </div>
+            <div class="task">
+                <div class="content">
+                    <ion-icon id="checkbox" name="ellipse-outline"></ion-icon>
+                    <p>Strat React</p>
+                </div>
+                <ion-icon id='delete' name="close-circle"></ion-icon>
+            </div> -->
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src='function.js'></script>
+</body>
+</html>
