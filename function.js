@@ -15,7 +15,7 @@ function checkNewTask() {
         let button_id = document.getElementById(id_string);
         button_id.addEventListener('click',function(){
             if(count % 2 == 0){
-                // Changing the icon is the user clicks on the checkbox
+                // Changing the icon is the user clicks on the check
                 button_id.getElementsByTagName('ion-icon')[0].setAttribute('name','checkmark-done-circle-outline');
                 // Handling Animations
                 button_id.parentElement.classList.remove('animate__animated');
